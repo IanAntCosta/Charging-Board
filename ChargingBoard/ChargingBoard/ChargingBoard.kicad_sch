@@ -4238,6 +4238,383 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor:INA260"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA260"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina260.pdf"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Current/power/voltage monitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA260_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "INA260_1_1"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:FQP27P06"
 			(pin_names
 				(hide yes)
@@ -5408,6 +5785,18 @@
 		(uuid a22e92c1-d3cd-423c-9a84-b2423ef15d50)
 	)
 	(rectangle
+		(start 182.88 134.62)
+		(end 222.25 176.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a6a10919-d9a3-474f-8193-e060de5768cc)
+	)
+	(rectangle
 		(start 232.41 101.6)
 		(end 386.08 187.96)
 		(stroke
@@ -5454,6 +5843,18 @@
 			(type none)
 		)
 		(uuid f9deb022-2d30-4566-81c0-6e398b367568)
+	)
+	(rectangle
+		(start 182.88 90.17)
+		(end 222.25 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ff1fa840-647e-4923-9bfc-9f0870736a45)
 	)
 	(text "MOTOR_2"
 		(exclude_from_sim no)
@@ -5515,6 +5916,16 @@
 		)
 		(uuid "4abf6409-7deb-4429-ba62-0378888be12b")
 	)
+	(text "PCB Battery V/A Sensor"
+		(exclude_from_sim no)
+		(at 202.946 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c86b9e4-fde0-470e-bcd5-05f85735b5c3")
+	)
 	(text "Out to Buck Converter"
 		(exclude_from_sim no)
 		(at 209.55 33.02 0)
@@ -5544,6 +5955,16 @@
 			)
 		)
 		(uuid "9490d730-32fb-4908-8594-d591483d2642")
+	)
+	(text "Motor Battery V/A Sensor"
+		(exclude_from_sim no)
+		(at 202.184 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0a3d41b-7e74-4471-9355-32d20b229703")
 	)
 	(text "5V from Buck Converter"
 		(exclude_from_sim no)
@@ -5670,6 +6091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "269af2b6-1c36-414e-bac3-04590fceeab9")
+	)
+	(junction
+		(at 204.47 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2762d19a-df19-4924-b034-fdcf4b0176ae")
 	)
 	(junction
 		(at 327.66 121.92)
@@ -5924,6 +6351,12 @@
 		(uuid "a7477b0d-a857-4f97-a099-0a6984ca1590")
 	)
 	(junction
+		(at 205.74 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa3cc6f2-cde3-46d0-926a-06a0dcc5b488")
+	)
+	(junction
 		(at 474.98 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5994,6 +6427,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc15047e-ddc1-4e58-879d-49ce01fe6643")
+	)
+	(junction
+		(at 217.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce96baf4-7aa4-415b-b97d-d6b9c710b753")
 	)
 	(junction
 		(at 480.06 142.24)
@@ -6084,16 +6523,80 @@
 		(uuid "0af80cac-4e87-4eb4-96a3-db1c2693acd4")
 	)
 	(no_connect
+		(at 100.33 40.64)
+		(uuid "0caa335f-87cb-4e33-8c14-cfa87527876c")
+	)
+	(no_connect
+		(at 130.81 86.36)
+		(uuid "2bf10d8f-d736-4b40-a8a4-88179bae1bb7")
+	)
+	(no_connect
+		(at 130.81 35.56)
+		(uuid "3c698fdf-a52b-43e6-9241-902d9391e33e")
+	)
+	(no_connect
+		(at 130.81 60.96)
+		(uuid "46bbe29f-cf25-4a27-9dbe-863a7509bde3")
+	)
+	(no_connect
+		(at 130.81 91.44)
+		(uuid "47de3e87-49b7-40ab-8731-b7c7a89d440a")
+	)
+	(no_connect
 		(at 127 171.45)
 		(uuid "594cf692-bcd9-415d-a2c3-1b0d4b3f39de")
+	)
+	(no_connect
+		(at 130.81 93.98)
+		(uuid "60d2619f-5893-4cf1-ad15-1938b933ce5c")
+	)
+	(no_connect
+		(at 214.63 151.13)
+		(uuid "6159f396-7b4c-4a57-8eff-1155a9fb995c")
+	)
+	(no_connect
+		(at 130.81 58.42)
+		(uuid "7e20ab00-fa4e-413c-8a0e-283a811eb8a2")
+	)
+	(no_connect
+		(at 100.33 43.18)
+		(uuid "931d1c32-37f0-40c0-9c28-8c81bd4f2550")
+	)
+	(no_connect
+		(at 130.81 83.82)
+		(uuid "a3b89889-5e24-4c4b-a913-f1d33405662f")
+	)
+	(no_connect
+		(at 130.81 63.5)
+		(uuid "a6683092-767b-4b98-99d6-884da4cd88eb")
+	)
+	(no_connect
+		(at 130.81 38.1)
+		(uuid "bb861b45-5e4f-4c11-ac45-3aa1e5e5e405")
 	)
 	(no_connect
 		(at 213.36 72.39)
 		(uuid "cfd47209-3454-4001-8b9f-e6f1b077f0ca")
 	)
 	(no_connect
+		(at 130.81 96.52)
+		(uuid "d33d7cd8-5e2f-4a54-bbd6-4c6280769032")
+	)
+	(no_connect
+		(at 130.81 88.9)
+		(uuid "d408f175-672d-44d8-96d6-4edb36531429")
+	)
+	(no_connect
+		(at 130.81 66.04)
+		(uuid "e2fa35e6-f18c-4d19-843e-b5abdb3f9561")
+	)
+	(no_connect
 		(at 111.76 130.81)
 		(uuid "eb08f695-22bb-453e-a95c-cc1829771b63")
+	)
+	(no_connect
+		(at 215.9 106.68)
+		(uuid "ebbf2cff-f6d4-4f39-a3c5-a7f4c6159a25")
 	)
 	(no_connect
 		(at 111.76 144.78)
@@ -6231,6 +6734,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 161.29) (xy 215.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bc295a-4dcf-4401-87f5-1347bb2132dc")
+	)
+	(wire
+		(pts
 			(xy 320.04 158.75) (xy 320.04 160.02)
 		)
 		(stroke
@@ -6331,6 +6844,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 123.19) (xy 205.74 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bef1a5-36c5-40b7-beea-6038bca7ab98")
+	)
+	(wire
+		(pts
+			(xy 217.17 114.3) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e82a44-7ba0-4e10-be28-ce39fec1907a")
+	)
+	(wire
+		(pts
 			(xy 121.92 135.89) (xy 121.92 161.29)
 		)
 		(stroke
@@ -6391,6 +6924,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 167.64) (xy 204.47 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b04486d-7a82-48b4-a670-dc48415edd8e")
+	)
+	(wire
+		(pts
 			(xy 471.17 67.31) (xy 471.17 64.77)
 		)
 		(stroke
@@ -6441,7 +6984,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 26.67) (xy 116.84 25.4)
+			(xy 116.84 26.67) (xy 116.84 19.05)
 		)
 		(stroke
 			(width 0)
@@ -6458,6 +7001,16 @@
 			(type default)
 		)
 		(uuid "0ecef3fc-b51d-4c07-b161-09d824ce3861")
+	)
+	(wire
+		(pts
+			(xy 217.17 123.19) (xy 205.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efcbaa1-364c-48af-915e-a2626d1e3b83")
 	)
 	(wire
 		(pts
@@ -6478,6 +7031,16 @@
 			(type default)
 		)
 		(uuid "0f8f95b3-ffbd-4252-9915-7a8afa09d683")
+	)
+	(wire
+		(pts
+			(xy 214.63 156.21) (xy 215.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd584de-8a14-4973-8a0b-818989d6291a")
 	)
 	(wire
 		(pts
@@ -6788,6 +7351,16 @@
 			(type default)
 		)
 		(uuid "218a1095-042e-4997-a6dd-f89964fc7ac2")
+	)
+	(wire
+		(pts
+			(xy 205.74 124.46) (xy 205.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2192a318-52aa-4f2f-a2a8-7adc33682d6d")
 	)
 	(wire
 		(pts
@@ -7191,16 +7764,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 68.58) (xy 132.08 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3934c8b1-5968-4a39-838e-8d572c0e8045")
-	)
-	(wire
-		(pts
 			(xy 476.25 129.54) (xy 478.79 129.54)
 		)
 		(stroke
@@ -7311,6 +7874,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 71.12) (xy 130.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbb593e-a018-45a3-a018-e361bc87f87c")
+	)
+	(wire
+		(pts
 			(xy 191.77 72.39) (xy 191.77 69.85)
 		)
 		(stroke
@@ -7398,6 +7971,16 @@
 			(type default)
 		)
 		(uuid "43712ed3-0c52-48a5-84be-8792e96c93a7")
+	)
+	(wire
+		(pts
+			(xy 204.47 168.91) (xy 204.47 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4393583a-3853-4cf0-87a3-bd90effd81e1")
 	)
 	(wire
 		(pts
@@ -7541,6 +8124,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 106.68) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49326447-3e8b-4aea-840c-6bbcb6843bdf")
+	)
+	(wire
+		(pts
 			(xy 190.5 24.13) (xy 191.77 24.13)
 		)
 		(stroke
@@ -7588,6 +8181,16 @@
 			(type default)
 		)
 		(uuid "4b343f46-70e9-4764-8990-87734a0bd3f3")
+	)
+	(wire
+		(pts
+			(xy 185.42 116.84) (xy 195.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b942e54-1225-40e6-85db-8525eb04b1b6")
 	)
 	(wire
 		(pts
@@ -7701,6 +8304,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 158.75) (xy 219.71 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500d12c0-6222-4881-b4a0-f2991368e1cb")
+	)
+	(wire
+		(pts
 			(xy 351.79 25.4) (xy 351.79 26.67)
 		)
 		(stroke
@@ -7708,6 +8321,16 @@
 			(type default)
 		)
 		(uuid "51698b4e-54d8-4be5-9fce-bc87bbd5cfc2")
+	)
+	(wire
+		(pts
+			(xy 88.9 35.56) (xy 100.33 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e963da-8ddb-4f3b-ad08-3f3893927d8b")
 	)
 	(wire
 		(pts
@@ -7738,6 +8361,16 @@
 			(type default)
 		)
 		(uuid "52ce6cdf-a540-4040-b7af-90639ddffee5")
+	)
+	(wire
+		(pts
+			(xy 130.81 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531b9ba9-713b-4464-9f7f-d1dcf0949e14")
 	)
 	(wire
 		(pts
@@ -7938,6 +8571,16 @@
 			(type default)
 		)
 		(uuid "627006d1-5710-445b-b0ae-4a310cf243f7")
+	)
+	(wire
+		(pts
+			(xy 194.31 153.67) (xy 191.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a0f00a-9c98-4907-bbbd-66513abf2c62")
 	)
 	(wire
 		(pts
@@ -8221,6 +8864,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 109.22) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da81c39-fe2a-4e35-9e52-4f1d9eaa515a")
+	)
+	(wire
+		(pts
 			(xy 494.03 62.23) (xy 494.03 63.5)
 		)
 		(stroke
@@ -8278,6 +8931,16 @@
 			(type default)
 		)
 		(uuid "713e1498-c8b9-47f5-9f5d-071b4059ef53")
+	)
+	(wire
+		(pts
+			(xy 215.9 116.84) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c55f22-b9f9-4948-b942-d50262171993")
 	)
 	(wire
 		(pts
@@ -8421,6 +9084,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 40.64) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79079112-a2bc-4dd8-a9ca-cd15b133192f")
+	)
+	(wire
+		(pts
 			(xy 185.42 30.48) (xy 191.77 30.48)
 		)
 		(stroke
@@ -8561,6 +9234,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 116.84) (xy 217.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81eaebf1-e6f7-4da6-a85a-ca056107a23f")
+	)
+	(wire
+		(pts
 			(xy 185.42 39.37) (xy 191.77 39.37)
 		)
 		(stroke
@@ -8638,6 +9321,16 @@
 			(type default)
 		)
 		(uuid "862b24e3-cf95-42ca-9e2d-a37f95be016c")
+	)
+	(wire
+		(pts
+			(xy 214.63 153.67) (xy 215.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8680e932-7cdd-48dd-9727-ce2a0cd2b61a")
 	)
 	(wire
 		(pts
@@ -8841,6 +9534,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 144.78) (xy 204.47 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910efc11-3040-4388-8b49-6c8ba5a4bd22")
+	)
+	(wire
+		(pts
 			(xy 351.79 77.47) (xy 355.6 77.47)
 		)
 		(stroke
@@ -8848,6 +9551,16 @@
 			(type default)
 		)
 		(uuid "9192663f-c49d-47b8-ab24-e626be333f59")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919cc8f2-54ac-4739-864c-4826f07ed188")
 	)
 	(wire
 		(pts
@@ -8888,6 +9601,16 @@
 			(type default)
 		)
 		(uuid "92777bfa-5876-4a46-b5b6-d27031dd40f0")
+	)
+	(wire
+		(pts
+			(xy 191.77 151.13) (xy 194.31 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94209edb-cd43-4ca7-8c53-81f46eb2eb1d")
 	)
 	(wire
 		(pts
@@ -9281,6 +10004,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 167.64) (xy 204.47 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc89715-51d7-45c7-92cc-f02edd67e79c")
+	)
+	(wire
+		(pts
 			(xy 355.6 163.83) (xy 355.6 165.1)
 		)
 		(stroke
@@ -9601,6 +10334,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 111.76) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d13c90-a322-4e50-9b92-38bb15bc8a55")
+	)
+	(wire
+		(pts
 			(xy 320.04 71.12) (xy 320.04 72.39)
 		)
 		(stroke
@@ -9698,6 +10441,16 @@
 			(type default)
 		)
 		(uuid "bc1bcaa0-4fd1-432d-ab83-6f44146b5fc8")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfa12d5-b6a9-4c49-aaf9-f99fb564d894")
 	)
 	(wire
 		(pts
@@ -10081,6 +10834,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 114.3) (xy 217.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d423eafe-a5c4-40e3-af20-39590e70c53b")
+	)
+	(wire
+		(pts
 			(xy 77.47 163.83) (xy 127 163.83)
 		)
 		(stroke
@@ -10271,6 +11034,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 161.29) (xy 194.31 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ca7d4e-48c1-4979-899c-89a23f3265e4")
+	)
+	(wire
+		(pts
 			(xy 367.03 176.53) (xy 370.84 176.53)
 		)
 		(stroke
@@ -10318,6 +11091,16 @@
 			(type default)
 		)
 		(uuid "e71d609c-c003-49bf-9a63-2ced93ede498")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 193.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77df193-5954-4988-8a13-2b241886001a")
 	)
 	(wire
 		(pts
@@ -10438,6 +11221,26 @@
 			(type default)
 		)
 		(uuid "eb5c84d9-c74b-463d-8c9c-66e1a2821c29")
+	)
+	(wire
+		(pts
+			(xy 205.74 100.33) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec67cc33-5f4f-42c2-940c-25fececfe376")
+	)
+	(wire
+		(pts
+			(xy 215.9 161.29) (xy 215.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc8b647-572f-42a0-91a0-1f6dd857a2d3")
 	)
 	(wire
 		(pts
@@ -10661,6 +11464,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 153.67) (xy 191.77 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8998036-db25-4ef3-9924-eb212df6e4b6")
+	)
+	(wire
+		(pts
 			(xy 130.81 48.26) (xy 132.08 48.26)
 		)
 		(stroke
@@ -10809,6 +11622,16 @@
 		)
 		(uuid "04805f73-ad11-4b3d-b3f7-59564bc84541")
 	)
+	(label "SDA"
+		(at 215.9 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07a5a112-15ed-493c-a41f-5b910ce63d70")
+	)
 	(label "BGATE1"
 		(at 356.87 49.53 0)
 		(effects
@@ -10948,6 +11771,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c4800a5-60e9-4f71-b996-6ca563b88a8e")
+	)
+	(label "SCL"
+		(at 217.17 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3038079e-7897-4221-b95e-b2928fd78f6c")
 	)
 	(label "SCK"
 		(at 49.53 125.73 0)
@@ -11099,6 +11932,16 @@
 		)
 		(uuid "6a71d7d9-2361-4e5f-9b11-7c9693c41c76")
 	)
+	(label "SDA"
+		(at 132.08 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aaeaba7-8d3c-4b5b-974b-d61d7253875b")
+	)
 	(label "BAT3"
 		(at 324.1529 147.32 0)
 		(effects
@@ -11119,8 +11962,18 @@
 		)
 		(uuid "6d14efbd-a2cd-47bb-a969-302704d85eee")
 	)
+	(label "PCB_Load"
+		(at 184.15 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72c2b4fe-977e-48bc-9c6e-06ef52e2e002")
+	)
 	(label "SD_CS"
-		(at 132.08 68.58 0)
+		(at 132.08 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11148,6 +12001,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ba7b8f2-210e-453b-a6b0-ec37e2288469")
+	)
+	(label "SDA"
+		(at 217.17 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d6fffce-44db-4665-afb3-5195b8b97215")
 	)
 	(label "MOSI"
 		(at 167.64 21.59 0)
@@ -11339,6 +12202,16 @@
 		)
 		(uuid "a48f4093-2a2f-4a62-b0c7-023a166dcc68")
 	)
+	(label "SCL"
+		(at 132.08 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7ee36de-27a8-490c-8e33-5b00f6e29c52")
+	)
 	(label "L4"
 		(at 527.05 129.54 0)
 		(effects
@@ -11499,6 +12372,16 @@
 		)
 		(uuid "cc076beb-894c-4281-8b7e-f2ac48507edf")
 	)
+	(label "SCL"
+		(at 215.9 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d42ef9fb-0c58-4fd2-b5f0-dfa9280c37b4")
+	)
 	(label "TGATE4"
 		(at 511.81 121.92 0)
 		(effects
@@ -11588,6 +12471,16 @@
 			(justify left bottom)
 		)
 		(uuid "ee94106b-27ef-4649-92c5-1436ff062635")
+	)
+	(label "Motor_Load"
+		(at 185.42 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f716cb02-8eea-410a-94c2-c8ce0814e581")
 	)
 	(label "INFET1"
 		(at 278.13 41.91 0)
@@ -12117,7 +13010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ab8cea9-b9b3-4bdd-939e-ddf2ca502692")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN0108"
 			(at 415.29 113.03 0)
 			(effects
 				(font
@@ -12166,7 +13059,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN0108")
 					(unit 1)
 				)
 			)
@@ -12737,7 +13630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12e1c6aa-e659-4f54-85e3-6e5aee48c137")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN0113"
 			(at 426.466 42.926 0)
 			(effects
 				(font
@@ -12786,7 +13679,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN0113")
 					(unit 1)
 				)
 			)
@@ -13003,7 +13896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18538cc4-2b16-41ec-b624-6872e6caa259")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN0111"
 			(at 321.31 20.32 0)
 			(effects
 				(font
@@ -13052,7 +13945,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN0111")
 					(unit 1)
 				)
 			)
@@ -13185,6 +14078,118 @@
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor:INA260")
+		(at 204.47 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c33bcd5-9de6-48fd-87f0-bf907e1005e0")
+		(property "Reference" "U7"
+			(at 206.6133 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA260"
+			(at 206.6133 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 204.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina260.pdf"
+			(at 204.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16"
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "064f771b-af01-4186-818f-f7ec2253319b")
+		)
+		(pin "14"
+			(uuid "2fadd703-6171-4dd2-acc0-4266254d7fe2")
+		)
+		(pin "3"
+			(uuid "b7cc476f-eb6c-4c95-8611-fcbd39752ddc")
+		)
+		(pin "2"
+			(uuid "cf78fc2f-6d3d-453f-b488-20e05364855c")
+		)
+		(pin "12"
+			(uuid "ef7ea6c2-2826-4279-bf83-9f61cd713b08")
+		)
+		(pin "9"
+			(uuid "6dea988b-2e04-48ca-ab84-1a71ea19b1c7")
+		)
+		(pin "6"
+			(uuid "d503af0e-ce96-401e-92d8-eb2532fa0590")
+		)
+		(pin "15"
+			(uuid "efb23f56-b2ab-433e-87be-75f69b199aa3")
+		)
+		(pin "8"
+			(uuid "4e1e00a4-ed8b-4846-88bc-9aee677e82c1")
+		)
+		(pin "4"
+			(uuid "4d56d320-2800-4e2c-aa3f-644091d3dd57")
+		)
+		(pin "7"
+			(uuid "39b44e5b-0be7-4d69-8834-b90b67d5ac29")
+		)
+		(pin "16"
+			(uuid "72dda481-76bc-4f5d-ae21-0dae7c4b0b97")
+		)
+		(pin "13"
+			(uuid "17e9de1a-c508-442a-bcf7-639f1b371edb")
+		)
+		(pin "5"
+			(uuid "9c01a4bd-025a-46a0-945a-cd4d220eda61")
+		)
+		(pin "10"
+			(uuid "5c038f40-4d86-407f-98a5-6bc6b47cab3e")
+		)
+		(pin "11"
+			(uuid "882d61ba-820e-4d22-860d-41f48e221373")
+		)
+		(instances
+			(project ""
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13679,7 +14684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23cfa223-b1e2-4a89-befa-8205431681a5")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN0110"
 			(at 476.25 107.95 0)
 			(effects
 				(font
@@ -13728,7 +14733,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN0110")
 					(unit 1)
 				)
 			)
@@ -14127,7 +15132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "251a4dca-af34-437a-b385-2c2740a45585")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN0112"
 			(at 394.97 44.704 0)
 			(effects
 				(font
@@ -14176,7 +15181,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN0112")
 					(unit 1)
 				)
 			)
@@ -14396,7 +15401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27f9bb82-c519-427f-bc0d-6d637ba5d71b")
-		(property "Reference" "VCC2"
+		(property "Reference" "#VCC2"
 			(at 452.12 32.004 0)
 			(effects
 				(font
@@ -14445,7 +15450,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC2")
+					(reference "#VCC2")
 					(unit 1)
 				)
 			)
@@ -14730,7 +15735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e318b48-8b57-4076-aa82-5ac6c0a546a2")
-		(property "Reference" "VCC2"
+		(property "Reference" "#VCC0102"
 			(at 488.188 22.098 0)
 			(effects
 				(font
@@ -14779,7 +15784,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC2")
+					(reference "#VCC0102")
 					(unit 1)
 				)
 			)
@@ -15378,6 +16383,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 88.9 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3837a86a-df5a-442d-b28f-aa6804735a9e")
+		(property "Reference" "C24"
+			(at 84.582 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 89.154 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 89.8652 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fb798c5-4e50-49da-8900-dd18bf390ea5")
+		)
+		(pin "1"
+			(uuid "6f44161d-d961-4c95-ab2a-2d6c4d5324c3")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 204.47 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c35c06-7761-4399-8986-06e094a6ea08")
+		(property "Reference" "#PWR064"
+			(at 204.47 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 204.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e53b9c12-3eb2-4a8c-ac27-99472b4b5b8e")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N47xxA")
 		(at 482.6 116.84 270)
 		(unit 1)
@@ -15685,6 +16825,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 205.74 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c4ecaf7-0abf-4d0c-ac0b-b1146a7612ee")
+		(property "Reference" "#PWR056"
+			(at 205.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617575d7-9f72-4980-b6c0-9178c707808b")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 275.59 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15965,7 +17171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44ad1eef-5af1-45d9-aa42-c25cde3152f7")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN0107"
 			(at 394.97 132.334 0)
 			(effects
 				(font
@@ -16014,7 +17220,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN0107")
 					(unit 1)
 				)
 			)
@@ -16454,7 +17660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f5e9feb-dda4-4410-8e99-7fcee1ccee74")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN0105"
 			(at 240.03 132.334 0)
 			(effects
 				(font
@@ -16503,7 +17709,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN0105")
 					(unit 1)
 				)
 			)
@@ -16654,7 +17860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "517e35cc-7963-448d-bf8a-b80ee51820e4")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN0109"
 			(at 321.31 107.95 0)
 			(effects
 				(font
@@ -16703,7 +17909,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN0109")
 					(unit 1)
 				)
 			)
@@ -17255,7 +18461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b259e1f-deee-45f7-bc4e-ed95abb7e0d9")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN0114"
 			(at 415.29 25.4 0)
 			(effects
 				(font
@@ -17304,7 +18510,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN0114")
 					(unit 1)
 				)
 			)
@@ -17939,7 +19145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "633acb8e-9821-48df-968b-d6fcfca9220d")
-		(property "Reference" "VCC2"
+		(property "Reference" "#VCC0101"
 			(at 522.478 27.178 0)
 			(effects
 				(font
@@ -17988,7 +19194,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC2")
+					(reference "#VCC0101")
 					(unit 1)
 				)
 			)
@@ -18207,7 +19413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67c9e8e7-d917-48da-9c7f-19954fcd41d1")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN0106"
 			(at 426.466 130.556 0)
 			(effects
 				(font
@@ -18256,7 +19462,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN0106")
 					(unit 1)
 				)
 			)
@@ -18608,16 +19814,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 25.4 0)
+		(at 116.84 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70d77cd0-ef5f-4517-91ff-bcd972ceaeaf")
 		(property "Reference" "#PWR046"
-			(at 116.84 29.21 0)
+			(at 116.84 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18626,7 +19831,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 116.84 20.32 0)
+			(at 119.634 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,7 +19839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 25.4 0)
+			(at 116.84 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18643,7 +19848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 25.4 0)
+			(at 116.84 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,7 +19857,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 25.4 0)
+			(at 116.84 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18950,7 +20155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78502072-76d4-4562-8363-af20db32e266")
-		(property "Reference" "VCC1"
+		(property "Reference" "#VCC0110"
 			(at 367.538 27.178 0)
 			(effects
 				(font
@@ -18999,7 +20204,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC1")
+					(reference "#VCC0110")
 					(unit 1)
 				)
 			)
@@ -19014,7 +20219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7877e0ec-1687-4257-b518-44ec77c6e09e")
-		(property "Reference" "VCC4"
+		(property "Reference" "#VCC4"
 			(at 421.64 124.968 0)
 			(effects
 				(font
@@ -19063,7 +20268,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC4")
+					(reference "#VCC4")
 					(unit 1)
 				)
 			)
@@ -19078,7 +20283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "787a89c5-5dd2-41fc-b4dd-14ff8718c595")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN0102"
 			(at 240.03 44.704 0)
 			(effects
 				(font
@@ -19127,7 +20332,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN0102")
 					(unit 1)
 				)
 			)
@@ -21058,7 +22263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92d35f12-664a-4268-b927-4d0040436450")
-		(property "Reference" "VCC1"
+		(property "Reference" "#VCC1"
 			(at 263.652 39.37 0)
 			(effects
 				(font
@@ -21107,7 +22312,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC1")
+					(reference "#VCC1")
 					(unit 1)
 				)
 			)
@@ -22824,7 +24029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b10b915d-9302-479b-8979-72e2d262319e")
-		(property "Reference" "VCC1"
+		(property "Reference" "#VCC0109"
 			(at 333.248 22.098 0)
 			(effects
 				(font
@@ -22873,7 +24078,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC1")
+					(reference "#VCC0109")
 					(unit 1)
 				)
 			)
@@ -23110,7 +24315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4ab1bc6-44ae-4aaf-8974-f06db35c9d54")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN0101"
 			(at 271.526 42.926 0)
 			(effects
 				(font
@@ -23159,7 +24364,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN0101")
 					(unit 1)
 				)
 			)
@@ -23240,7 +24445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b605f429-363b-43b6-b550-e978edcc7540")
-		(property "Reference" "VCC4"
+		(property "Reference" "#VCC0107"
 			(at 522.478 114.808 0)
 			(effects
 				(font
@@ -23289,7 +24494,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC4")
+					(reference "#VCC0107")
 					(unit 1)
 				)
 			)
@@ -23645,7 +24850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8638d87-259f-4267-997e-ffe4e6a6ef9c")
-		(property "Reference" "VCC3"
+		(property "Reference" "#VCC0104"
 			(at 297.18 119.634 0)
 			(effects
 				(font
@@ -23694,7 +24899,73 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC3")
+					(reference "#VCC0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba0d1c81-22b5-4d1a-8562-bf87ae1cabdb")
+		(property "Reference" "#PWR055"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8752323-bfb1-479a-bd48-409499dbed12")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -23829,6 +25100,72 @@
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7263f5-b185-4aef-93ff-3a43ed522fa9")
+		(property "Reference" "#PWR054"
+			(at 204.47 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763aa03d-b045-4678-841d-b056466e34af")
+		)
+		(instances
+			(project ""
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -24288,7 +25625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c15e52be-52e9-403e-9918-1195d6394631")
-		(property "Reference" "VCC4"
+		(property "Reference" "#VCC0106"
 			(at 452.12 119.634 0)
 			(effects
 				(font
@@ -24337,7 +25674,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC4")
+					(reference "#VCC0106")
 					(unit 1)
 				)
 			)
@@ -24753,7 +26090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6e07bf9-8d2a-4e2f-8d01-af2371346c8b")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN1"
 			(at 476.25 20.32 0)
 			(effects
 				(font
@@ -24802,7 +26139,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN1")
 					(unit 1)
 				)
 			)
@@ -25019,7 +26356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbb9d175-f6d7-4cb4-aeed-67866b6ea5fa")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN0104"
 			(at 260.35 113.03 0)
 			(effects
 				(font
@@ -25068,7 +26405,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN0104")
 					(unit 1)
 				)
 			)
@@ -25219,7 +26556,7 @@
 		(dnp no)
 		(uuid "ce33208e-2c67-4a9d-ac33-edb0ef70dd4a")
 		(property "Reference" "Y1"
-			(at 144.78 46.736 90)
+			(at 143.51 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25290,7 +26627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf311fd5-5421-49e0-953f-4a1e54f6b498")
-		(property "Reference" "DCIN2"
+		(property "Reference" "#DCIN2"
 			(at 274.32 129.794 0)
 			(effects
 				(font
@@ -25339,7 +26676,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN2")
+					(reference "#DCIN2")
 					(unit 1)
 				)
 			)
@@ -25651,7 +26988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d15e03b5-9a14-43d0-86f8-4c08a0a08dec")
-		(property "Reference" "VCC3"
+		(property "Reference" "#VCC0103"
 			(at 333.248 109.728 0)
 			(effects
 				(font
@@ -25700,7 +27037,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC3")
+					(reference "#VCC0103")
 					(unit 1)
 				)
 			)
@@ -25963,6 +27300,118 @@
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor:INA260")
+		(at 205.74 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d73716a1-4ca3-429a-ac4b-ef0374b27641")
+		(property "Reference" "U8"
+			(at 207.8833 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA260"
+			(at 207.8833 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina260.pdf"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b3537a-8666-49a5-b4d1-fc78571d3f63")
+		)
+		(pin "14"
+			(uuid "c41d7ab9-4979-4477-9c41-693349da7ad8")
+		)
+		(pin "3"
+			(uuid "02b82b70-3cac-4cad-889e-c2d2c405ade3")
+		)
+		(pin "2"
+			(uuid "26590fed-9723-4ad8-9211-e1693758fec4")
+		)
+		(pin "12"
+			(uuid "5e4d22e4-4165-415f-a559-7a5a1e5b7fc7")
+		)
+		(pin "9"
+			(uuid "9819aa13-b6e8-4134-8585-d7f8aafc158b")
+		)
+		(pin "6"
+			(uuid "83c8d2ee-2b7c-4623-8d1f-b49cb151a44c")
+		)
+		(pin "15"
+			(uuid "3c647b27-c12a-4cb6-ac48-c8047ba50bb8")
+		)
+		(pin "8"
+			(uuid "72b7a7df-b4e6-4af0-b836-75b7dad8cb95")
+		)
+		(pin "4"
+			(uuid "a8ca0223-3636-4ffc-a36a-22adc47cac5d")
+		)
+		(pin "7"
+			(uuid "c8b756fc-85f6-4db9-92c8-2708adeaab63")
+		)
+		(pin "16"
+			(uuid "5f63188e-1a8d-425b-aa27-4216f153633d")
+		)
+		(pin "13"
+			(uuid "63378a8d-a97a-4309-a330-58fc1f775058")
+		)
+		(pin "5"
+			(uuid "fce6eb0b-9a84-414e-9771-2e77b1cfcee9")
+		)
+		(pin "10"
+			(uuid "aa7c9871-f68b-42fe-92a9-1507dbd28a97")
+		)
+		(pin "11"
+			(uuid "25eca8ab-81eb-48ec-8d61-631a81268c1f")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -26418,7 +27867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de869f22-1bb7-48c2-824e-dd97a9593f24")
-		(property "Reference" "VCC3"
+		(property "Reference" "#VCC0105"
 			(at 367.538 114.808 0)
 			(effects
 				(font
@@ -26467,7 +27916,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC3")
+					(reference "#VCC0105")
 					(unit 1)
 				)
 			)
@@ -26614,6 +28063,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e33ebecb-1136-496f-b2da-9a899b70f6b9")
+		(property "Reference" "#PWR059"
+			(at 88.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37ea4221-78b9-4194-9cfd-290bba199445")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:FQP27P06")
 		(at 488.95 121.92 0)
 		(mirror x)
@@ -26684,6 +28199,71 @@
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
 					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5421d37-03cf-4161-8ba6-dabd71d6df0a")
+		(property "Reference" "#PWR058"
+			(at 219.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 219.71 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02178eca-fee2-442f-bf2d-7dd9d2917d88")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -26900,7 +28480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9218385-70ee-4bb5-b15d-c7ef8f175d34")
-		(property "Reference" "VCC1"
+		(property "Reference" "#VCC0111"
 			(at 297.18 32.004 0)
 			(effects
 				(font
@@ -26949,7 +28529,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC1")
+					(reference "#VCC0111")
 					(unit 1)
 				)
 			)
@@ -27452,7 +29032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eddc1448-711d-4f61-b30e-98ba8e49f227")
-		(property "Reference" "VCC4"
+		(property "Reference" "#VCC0108"
 			(at 488.188 109.728 0)
 			(effects
 				(font
@@ -27501,7 +29081,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC4")
+					(reference "#VCC0108")
 					(unit 1)
 				)
 			)
@@ -27592,7 +29172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2ab46d7-14fe-46b1-86f3-44ccd3bfb5a0")
-		(property "Reference" "VCC3"
+		(property "Reference" "#VCC3"
 			(at 263.652 127 0)
 			(effects
 				(font
@@ -27641,7 +29221,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC3")
+					(reference "#VCC3")
 					(unit 1)
 				)
 			)
@@ -27793,7 +29373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f682ab59-3a25-4b8a-bcb9-0447d0197b7a")
-		(property "Reference" "VCC02"
+		(property "Reference" "#VCC02"
 			(at 418.592 39.37 0)
 			(effects
 				(font
@@ -27842,7 +29422,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "VCC02")
+					(reference "#VCC02")
 					(unit 1)
 				)
 			)
@@ -28289,7 +29869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcee5258-f025-483c-8be4-0e5a12bc5223")
-		(property "Reference" "DCIN1"
+		(property "Reference" "#DCIN0103"
 			(at 260.35 25.4 0)
 			(effects
 				(font
@@ -28338,7 +29918,7 @@
 		(instances
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
-					(reference "DCIN1")
+					(reference "#DCIN0103")
 					(unit 1)
 				)
 			)
