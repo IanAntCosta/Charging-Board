@@ -9123,6 +9123,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 201.93) (xy 127 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f190ea-740c-4fe9-919b-5644ede3bc09")
+	)
+	(wire
+		(pts
 			(xy 433.07 129.54) (xy 439.42 129.54)
 		)
 		(stroke
@@ -9490,6 +9500,16 @@
 			(type default)
 		)
 		(uuid "10459e52-0c01-4de1-906a-3ed3d2c6f9af")
+	)
+	(wire
+		(pts
+			(xy 148.59 196.85) (xy 144.78 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107e5bdc-5bdd-4b65-b5cf-49e1bc6a4d5e")
 	)
 	(wire
 		(pts
@@ -9983,6 +10003,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 196.85) (xy 127 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29346918-31b8-41bc-bf32-7252987ab1fa")
+	)
+	(wire
+		(pts
 			(xy 439.42 134.62) (xy 429.26 134.62)
 		)
 		(stroke
@@ -10400,6 +10430,16 @@
 			(type default)
 		)
 		(uuid "3dbb593e-a018-45a3-a018-e361bc87f87c")
+	)
+	(wire
+		(pts
+			(xy 127 199.39) (xy 127 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbf2139-7759-494b-b429-eb6ed5f0fc89")
 	)
 	(wire
 		(pts
@@ -12703,6 +12743,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 201.93) (xy 148.59 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13e97f2-4f38-4720-a3bd-35e9f02a155b")
+	)
+	(wire
+		(pts
 			(xy 367.03 88.9) (xy 370.84 88.9)
 		)
 		(stroke
@@ -13130,6 +13180,16 @@
 			(type default)
 		)
 		(uuid "c64a76e4-1da7-4524-bd88-c8934e7f56e5")
+	)
+	(wire
+		(pts
+			(xy 148.59 199.39) (xy 148.59 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67eb032-696e-47b9-a094-7413b30b1eec")
 	)
 	(wire
 		(pts
@@ -14641,6 +14701,16 @@
 		)
 		(uuid "6c51aef3-a6f6-48b6-ad2b-d1dba94ae535")
 	)
+	(label "PCB_Load"
+		(at 139.7 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cc81e8f-377a-4ea4-8de5-568bb93f5b49")
+	)
 	(label "TGATE1"
 		(at 358.14 46.99 0)
 		(effects
@@ -15020,6 +15090,16 @@
 			(justify left bottom)
 		)
 		(uuid "bfbd6eb1-b10b-4dc2-85e6-8e1a3a03f07a")
+	)
+	(label "Motor_Load"
+		(at 115.57 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c057d84b-be1f-41e3-a4fe-4d6bbaaa04d6")
 	)
 	(label "BAT2"
 		(at 506.73 54.61 0)
@@ -16414,6 +16494,71 @@
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12623566-ec01-49e9-9963-f1ad63626503")
+		(property "Reference" "#PWR071"
+			(at 144.78 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.224 198.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da39852a-348d-434b-8b25-8fea8004f266")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -21751,6 +21896,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 132.08 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53759563-2754-41d5-93e9-098202a0bfd7")
+		(property "Reference" "J8"
+			(at 133.858 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 134.62 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+			(at 132.08 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd3752ab-85a6-476b-ae72-cc57b52f592b")
+		)
+		(pin "2"
+			(uuid "c0c8f8c7-f483-4c75-82ba-7fb4e7fcce41")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 474.98 163.83 0)
 		(unit 1)
@@ -23158,6 +23373,71 @@
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67582ce1-b3ad-4456-b493-054cc5a900b5")
+		(property "Reference" "#PWR069"
+			(at 121.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.364 198.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb5b63f5-541d-487a-8368-694da64d2364")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -29993,6 +30273,76 @@
 			(project "ChargingBoard"
 				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 153.67 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf7af568-e5fd-4562-8100-015901683b24")
+		(property "Reference" "J9"
+			(at 155.448 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 156.21 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+			(at 153.67 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29ecfac1-4adb-442f-9957-1849e1f0f03c")
+		)
+		(pin "2"
+			(uuid "ccaefa43-79c3-46c3-8a7c-15538122e592")
+		)
+		(instances
+			(project "ChargingBoard"
+				(path "/906eb49a-314f-4b40-b44d-bd1f43979059"
+					(reference "J9")
 					(unit 1)
 				)
 			)
