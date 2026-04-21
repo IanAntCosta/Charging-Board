@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ChargingBoard")(type "KiCad")(uri "${KIPRJMOD}/ChargingBoard.kicad_sym")(options "")(descr ""))
+)
